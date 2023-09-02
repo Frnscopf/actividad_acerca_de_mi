@@ -1,0 +1,58 @@
+gibody {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+#info-personal, #habilidades {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+#info-personal, #habilidades {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    header, #info-personal, #habilidades {
+        padding: 10px;
+    }
+
+h1, h2 {
+    font-size: 18px;
+}
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    header, #info.personal, #habilidades {
+        padding: 20px;
+    }
+
+    h1, h2 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1025px) {
+    header, #info.personal, #habilidades {
+        padding: 30px
+    }
+
+    h1, h2 {
+        font-size: 28px;
+    }
+}
